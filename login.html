@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Login - App Name</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <header>  
+    <h1>App Name</h1>
+  </header>
+
+  <main>
+
+    <h1>Login</h1>
+    
+    <form action="login.php" method="post" novalidate>
+      
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div>  
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="8" required>
+      </div>
+
+      <button type="submit">Login</button>
+      
+      <p>
+        <a href="/forgot-password">Forgot password?</a>
+      </p>
+      
+    </form>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2023 App Name</p> 
+  </footer>
+
+</body>
+</html>
